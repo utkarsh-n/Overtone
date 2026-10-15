@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAAF6AA67079723909C5020 /* OvertoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDC0DD356E383CC5843E12 /* OvertoneUITests.swift */; };
+		2E0DFEAC322FC923DC3B1E14 /* OvertoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E12EAF27B54D57E8856C9A /* OvertoneApp.swift */; };
+		37CD157E5DC781E3AC12CC91 /* PianoKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C085BC4A0E9A15C39EC7E894 /* PianoKeyboard.swift */; };
+		38DCE38658B97AC002012DBD /* PianoSensory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5BF9C424DE54C5CCEAE81 /* PianoSensory.swift */; };
+		406DED8ABBD0053083B6A05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EC9A529E3D3535B5FEBF67 /* Assets.xcassets */; };
+		59F7EC8E142AD7EC1EB8CA99 /* MusicTheory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AC9D6203770BC7ACE629B2 /* MusicTheory.swift */; };
+		70EE1FCDA6A830D4739AA5C9 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0CC080FEB9109876C6662 /* Lesson.swift */; };
+		72E7F64EA159F96CCD5EF999 /* PianoSynth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D72A44925A5F137361DFA4B /* PianoSynth.swift */; };
+		9D52B79660F6F9ECE2F400EE /* InstrumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F76473600B165178EF1B74 /* InstrumentModel.swift */; };
+		A8D2CC2B5BB9323B580ED662 /* WaveStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5887C0DCC375FA1504AEE4FB /* WaveStage.swift */; };
+		AAF52905E8301423348F5A70 /* OvertoneCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B9FFFA045201A62F16A72D /* OvertoneCore.framework */; };
+		B77843AF85E777BAACFB4832 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597D1603912DA444D8D3EF3 /* RootView.swift */; };
+		C119D6AE44F7C9E79F733784 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CB169EDA3C84981B5860EF /* Theme.swift */; };
+		D7EF39B9B42E4E9929B30420 /* LessonSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A746EE22ECC1DC2A81851C0 /* LessonSession.swift */; };
+		FA9212108EC6DCB23222A855 /* OvertoneCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71B9FFFA045201A62F16A72D /* OvertoneCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED089682FAA18876ED5BE1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2465187330BB07A7AE5083B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71C85817986E8BD5B1FBE02;
+			remoteInfo = Overtone;
+		};
+		A5B253A2FFE71A7DF1D30623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2465187330BB07A7AE5083B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F32DA594A5E78FB0071D2E;
+			remoteInfo = OvertoneCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA86A089CE08BA66BF36D873 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA9212108EC6DCB23222A855 /* OvertoneCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0597D1603912DA444D8D3EF3 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		14CB169EDA3C84981B5860EF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1EA5BF9C424DE54C5CCEAE81 /* PianoSensory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoSensory.swift; sourceTree = "<group>"; };
+		3A746EE22ECC1DC2A81851C0 /* LessonSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSession.swift; sourceTree = "<group>"; };
+		45BDC0DD356E383CC5843E12 /* OvertoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvertoneUITests.swift; sourceTree = "<group>"; };
+		5887C0DCC375FA1504AEE4FB /* WaveStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveStage.swift; sourceTree = "<group>"; };
+		67B0CC080FEB9109876C6662 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		6D72A44925A5F137361DFA4B /* PianoSynth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoSynth.swift; sourceTree = "<group>"; };
+		71B9FFFA045201A62F16A72D /* OvertoneCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OvertoneCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E12EAF27B54D57E8856C9A /* OvertoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvertoneApp.swift; sourceTree = "<group>"; };
+		84F76473600B165178EF1B74 /* InstrumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentModel.swift; sourceTree = "<group>"; };
+		B7EC9A529E3D3535B5FEBF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C085BC4A0E9A15C39EC7E894 /* PianoKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoKeyboard.swift; sourceTree = "<group>"; };
+		C0AC9D6203770BC7ACE629B2 /* MusicTheory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTheory.swift; sourceTree = "<group>"; };
+		C8A8AA80D809CBEE80302016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCF088546DD264F8084A068A /* Overtone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Overtone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABE7D3B0EC243E491097CEE /* OvertoneUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OvertoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C616747B8CB78CD57B024C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF52905E8301423348F5A70 /* OvertoneCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		543898F48FC4B39AC1B257E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B7EC9A529E3D3535B5FEBF67 /* Assets.xcassets */,
+				C8A8AA80D809CBEE80302016 /* Info.plist */,
+				84F76473600B165178EF1B74 /* InstrumentModel.swift */,
+				78E12EAF27B54D57E8856C9A /* OvertoneApp.swift */,
+				C26F11A9E910699DE69322D4 /* Sensory */,
+				DC4EB20AB6CF23F8098A8F8E /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5A6092A213815FA863DBA33D = {
+			isa = PBXGroup;
+			children = (
+				543898F48FC4B39AC1B257E4 /* App */,
+				660ED9893F43F0E291FFD67E /* Sources */,
+				A5A71E341F2F199834B40965 /* UITests */,
+				D63318AC5437FA60B006A51E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660ED9893F43F0E291FFD67E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				724E48700DE5CA86CE932109 /* OvertoneCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		724E48700DE5CA86CE932109 /* OvertoneCore */ = {
+			isa = PBXGroup;
+			children = (
+				67B0CC080FEB9109876C6662 /* Lesson.swift */,
+				3A746EE22ECC1DC2A81851C0 /* LessonSession.swift */,
+				C0AC9D6203770BC7ACE629B2 /* MusicTheory.swift */,
+			);
+			path = OvertoneCore;
+			sourceTree = "<group>";
+		};
+		A5A71E341F2F199834B40965 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BDC0DD356E383CC5843E12 /* OvertoneUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		C26F11A9E910699DE69322D4 /* Sensory */ = {
+			isa = PBXGroup;
+			children = (
+				1EA5BF9C424DE54C5CCEAE81 /* PianoSensory.swift */,
+				6D72A44925A5F137361DFA4B /* PianoSynth.swift */,
+			);
+			path = Sensory;
+			sourceTree = "<group>";
+		};
+		D63318AC5437FA60B006A51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF088546DD264F8084A068A /* Overtone.app */,
+				71B9FFFA045201A62F16A72D /* OvertoneCore.framework */,
+				FABE7D3B0EC243E491097CEE /* OvertoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4EB20AB6CF23F8098A8F8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C085BC4A0E9A15C39EC7E894 /* PianoKeyboard.swift */,
+				0597D1603912DA444D8D3EF3 /* RootView.swift */,
+				14CB169EDA3C84981B5860EF /* Theme.swift */,
+				5887C0DCC375FA1504AEE4FB /* WaveStage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2209D4289D2CA7B172E083BD /* OvertoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CD676CC5AA8D5DA6640D9D /* Build configuration list for PBXNativeTarget "OvertoneUITests" */;
+			buildPhases = (
+				C57D18ADF26EF496AF7BF66E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C7603F183F739CCB75B6415 /* PBXTargetDependency */,
+			);
+			name = OvertoneUITests;
+			packageProductDependencies = (
+			);
+			productName = OvertoneUITests;
+			productReference = FABE7D3B0EC243E491097CEE /* OvertoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F1F32DA594A5E78FB0071D2E /* OvertoneCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98C2C5C58C3D573F7DC17393 /* Build configuration list for PBXNativeTarget "OvertoneCore" */;
+			buildPhases = (
+				25B6D518CDCA199F3A946FF1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OvertoneCore;
+			packageProductDependencies = (
+			);
+			productName = OvertoneCore;
+			productReference = 71B9FFFA045201A62F16A72D /* OvertoneCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F71C85817986E8BD5B1FBE02 /* Overtone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2B50BD956FAD099248899A /* Build configuration list for PBXNativeTarget "Overtone" */;
+			buildPhases = (
+				4ACE2818B56461185763C682 /* Sources */,
+				EF21574971B02827216D6687 /* Resources */,
+				C616747B8CB78CD57B024C0B /* Frameworks */,
+				CA86A089CE08BA66BF36D873 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDB269352B8E1EA65243076 /* PBXTargetDependency */,
+			);
+			name = Overtone;
+			packageProductDependencies = (
+			);
+			productName = Overtone;
+			productReference = DCF088546DD264F8084A068A /* Overtone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2465187330BB07A7AE5083B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2209D4289D2CA7B172E083BD = {
+
+						ProvisioningStyle = Automatic;
+						TestTargetID = F71C85817986E8BD5B1FBE02;
+					};
+					F1F32DA594A5E78FB0071D2E = {
+
+						ProvisioningStyle = Automatic;
+					};
+					F71C85817986E8BD5B1FBE02 = {
+
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 979354B01FD1FAD81A20D943 /* Build configuration list for PBXProject "Overtone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5A6092A213815FA863DBA33D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D63318AC5437FA60B006A51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F32DA594A5E78FB0071D2E /* OvertoneCore */,
+				F71C85817986E8BD5B1FBE02 /* Overtone */,
+				2209D4289D2CA7B172E083BD /* OvertoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF21574971B02827216D6687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406DED8ABBD0053083B6A05F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B6D518CDCA199F3A946FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EE1FCDA6A830D4739AA5C9 /* Lesson.swift in Sources */,
+				D7EF39B9B42E4E9929B30420 /* LessonSession.swift in Sources */,
+				59F7EC8E142AD7EC1EB8CA99 /* MusicTheory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACE2818B56461185763C682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D52B79660F6F9ECE2F400EE /* InstrumentModel.swift in Sources */,
+				2E0DFEAC322FC923DC3B1E14 /* OvertoneApp.swift in Sources */,
+				37CD157E5DC781E3AC12CC91 /* PianoKeyboard.swift in Sources */,
+				38DCE38658B97AC002012DBD /* PianoSensory.swift in Sources */,
+				72E7F64EA159F96CCD5EF999 /* PianoSynth.swift in Sources */,
+				B77843AF85E777BAACFB4832 /* RootView.swift in Sources */,
+				C119D6AE44F7C9E79F733784 /* Theme.swift in Sources */,
+				A8D2CC2B5BB9323B580ED662 /* WaveStage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57D18ADF26EF496AF7BF66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAAF6AA67079723909C5020 /* OvertoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C7603F183F739CCB75B6415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71C85817986E8BD5B1FBE02 /* Overtone */;
+			targetProxy = 1ED089682FAA18876ED5BE1E /* PBXContainerItemProxy */;
+		};
+		ABDB269352B8E1EA65243076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F32DA594A5E78FB0071D2E /* OvertoneCore */;
+			targetProxy = A5B253A2FFE71A7DF1D30623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0047F3D93316BF83E2969120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.overtone.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Overtone;
+			};
+			name = Debug;
+		};
+		065D923161492556964553DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.overtone.core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		143F4744787856C8658392E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		16EC973A395B0B34A2EC009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D65E26A871B1D12CEA30507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.overtone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		449E1AF112B1B5E6DDA1F6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.overtone;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E18052294F8A42821F7D895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.overtone.core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		98FE6825613D8EBAF17AEDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.overtone.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Overtone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CD676CC5AA8D5DA6640D9D /* Build configuration list for PBXNativeTarget "OvertoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0047F3D93316BF83E2969120 /* Debug */,
+				98FE6825613D8EBAF17AEDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F2B50BD956FAD099248899A /* Build configuration list for PBXNativeTarget "Overtone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449E1AF112B1B5E6DDA1F6E5 /* Debug */,
+				2D65E26A871B1D12CEA30507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		979354B01FD1FAD81A20D943 /* Build configuration list for PBXProject "Overtone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EC973A395B0B34A2EC009C /* Debug */,
+				143F4744787856C8658392E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98C2C5C58C3D573F7DC17393 /* Build configuration list for PBXNativeTarget "OvertoneCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065D923161492556964553DF /* Debug */,
+				7E18052294F8A42821F7D895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2465187330BB07A7AE5083B7 /* Project object */;
+}

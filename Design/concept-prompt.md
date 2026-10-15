@@ -1,0 +1,9 @@
+# Overtone visual concept
+
+Generated with the built-in image generation tool. Saved final board: `Design/concept.png`.
+
+## Prompt
+
+Create a polished visual design concept board for a native iPhone app named OVERTONE, a piano and frequency learning instrument for an absolute beginner. One cohesive direction, THREE app screens side by side on a warm charcoal-black board, each a flat edge-to-edge portrait screenshot without device frames. Use dark ink #090F14, luminous mint/cyan #82F4D3, warm ivory physical piano keys, subtle amber harmonics #F4BD73 and coral interval wave #FF8C82. Editorial large type with restrained monospaced scientific labels. Elegant native iOS navigation and rounded thin-border control cards, no busy sci-fi chrome. Screen 1 Learn: header 'Overtone', small 'SOUND, MADE VISIBLE', lesson '01 / Feel a note', big 'Sound is movement.', central beautiful mint standing wave and concentric resonance circles above numerical '261.63 Hz' and 'C4 · middle C', small explain '261.63 vibrations each second', amber practical lesson card 'Press C. Listen. Watch it repeat.', ivory piano keyboard anchored bottom with five correctly patterned black keys in groups 2 and3 and C4 highlighted mint, tab bar Learn / Lab / Practice. Screen 2 Lab: 'Two notes. One relationship.' two overlaid cyan/coral sinusoidal waves, C4 261.63 Hz and G4 392.00 Hz readouts, 'A fifth · 7 half-steps', small harmonic bars. Screen3 journey list 'From vibration to your first melody.' ten numbered lesson cards, first completed mint circle. Sophisticated, realistic implementable native app UI with generous whitespace, calm inviting educational tone, tactile piano detail. Exact text mostly readable; no rainbow gradients, no photos, no musical staff or complex jargon.
+
+Implementation refines the concept's example copy and keyboard labeling to teach accurate equal-temperament frequencies and zero-prerequisite concepts.

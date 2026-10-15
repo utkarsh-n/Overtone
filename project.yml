@@ -1,0 +1,65 @@
+name: Overtone
+options:
+  bundleIdPrefix: com.utkarsh
+  deploymentTarget:
+    iOS: '26.0'
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: '1.0'
+    CURRENT_PROJECT_VERSION: '1'
+targets:
+  OvertoneCore:
+    type: framework
+    platform: iOS
+    sources: [Sources/OvertoneCore]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.overtone.core
+  Overtone:
+    type: application
+    platform: iOS
+    sources: [App]
+    dependencies:
+      - target: OvertoneCore
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Overtone
+        UILaunchScreen: {}
+        UIUserInterfaceStyle: Dark
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.education
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.overtone
+        TARGETED_DEVICE_FAMILY: '1,2'
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  OvertoneUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: Overtone
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.overtone.uitests
+        TEST_TARGET_NAME: Overtone
+schemes:
+  Overtone:
+    build:
+      targets:
+        Overtone: all
+        OvertoneUITests: [test]
+    test:
+      targets: [OvertoneUITests]
